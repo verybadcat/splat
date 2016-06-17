@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Splat-monotouch", "Splat\Splat-monotouch.csproj", "{95E74294-9538-44F3-AC97-F83760565242}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Splat-monoandroid", "Splat\Splat-monoandroid.csproj", "{E429F061-65F1-4B17-A122-F6115840D56D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Splat-monomac", "Splat\Splat-monomac.csproj", "{252CE1CF-331C-4445-A3C2-E4D6C80A935A}"
@@ -18,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{CC27C91B
 		Splat.nuspec = Splat.nuspec
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Splat-monotouch", "Splat\Splat-monotouch.csproj", "{95E74294-9538-44F3-AC97-F83760565242}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,10 +32,6 @@ Global
 		{252CE1CF-331C-4445-A3C2-E4D6C80A935A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{252CE1CF-331C-4445-A3C2-E4D6C80A935A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{252CE1CF-331C-4445-A3C2-E4D6C80A935A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{95E74294-9538-44F3-AC97-F83760565242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{95E74294-9538-44F3-AC97-F83760565242}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{95E74294-9538-44F3-AC97-F83760565242}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{95E74294-9538-44F3-AC97-F83760565242}.Release|Any CPU.Build.0 = Release|Any CPU
 		{990825BE-73ED-4A31-9178-B88119A72F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{990825BE-73ED-4A31-9178-B88119A72F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{990825BE-73ED-4A31-9178-B88119A72F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -48,6 +44,10 @@ Global
 		{E5EEF584-2A8A-4067-8309-15FE4D65DD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5EEF584-2A8A-4067-8309-15FE4D65DD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5EEF584-2A8A-4067-8309-15FE4D65DD64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95E74294-9538-44F3-AC97-F83760565242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95E74294-9538-44F3-AC97-F83760565242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95E74294-9538-44F3-AC97-F83760565242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95E74294-9538-44F3-AC97-F83760565242}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
@@ -56,9 +56,9 @@ Global
 		Policies = $0
 		$0.TextStylePolicy = $1
 		$1.FileWidth = 120
-		$1.inheritsSet = VisualStudio
+		$1.inheritsSet = null
 		$1.inheritsScope = text/plain
-		$1.scope = text/plain
+		$1.scope = text/x-csharp
 		$0.CSharpFormattingPolicy = $2
 		$2.AutoPropertyFormatting = ForceOneLine
 		$2.IndentPreprocessorDirectives = False
