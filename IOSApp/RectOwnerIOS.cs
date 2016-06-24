@@ -1,9 +1,9 @@
-﻿using System;
+﻿
 using PCL;
 
 namespace IOSApp
 {
-  public class RectOwnerIOS: RectOwner
+  public class RectOwnerIOS : RectOwner
   {
     public RectOwnerIOS ()
     {

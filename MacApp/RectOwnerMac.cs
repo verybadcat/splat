@@ -1,14 +1,15 @@
-﻿extern alias SplatMac; 
+﻿
 using PCL;
+using System.Drawing;
 
 
 namespace MacApp
 {
   public class RectOwnerSubclass: RectOwner
   {
-    public RectOwnerSubclass ()
+    public RectOwnerSubclass()
     {
-      this.Rect = new System.Drawing.RectangleF (5, 6, 7, 8);
+      this.Rect = new System.Drawing.RectangleF(5, 6, 7, 8);
     }
   }
 }
