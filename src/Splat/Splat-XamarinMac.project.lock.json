@@ -1,6 +1,5 @@
 {
-  "locked": false,
-  "version": 2,
+  "version": 3,
   "targets": {
     "Xamarin.Mac,Version=v2.0": {}
   },
@@ -8,5 +7,31 @@
   "projectFileDependencyGroups": {
     "": [],
     "Xamarin.Mac,Version=v2.0": []
+  },
+  "packageFolders": {
+    "/Users/william/.nuget/packages/": {}
+  },
+  "project": {
+    "restore": {
+      "projectUniqueName": "/Users/william/Documents/Occasionals/splat/src/Splat/Splat-XamarinMac.csproj",
+      "projectName": "Splat-XamarinMac",
+      "projectPath": "/Users/william/Documents/Occasionals/splat/src/Splat/Splat-XamarinMac.csproj",
+      "projectJsonPath": "/Users/william/Documents/Occasionals/splat/src/Splat/Splat-XamarinMac.project.json",
+      "packagesPath": "/Users/william/.nuget/packages/",
+      "projectStyle": "ProjectJson",
+      "configFilePaths": [
+        "/Users/william/Documents/Occasionals/splat/src/nuget.config",
+        "/Users/william/.config/NuGet/NuGet.Config"
+      ],
+      "sources": {
+        "http://nuget.blocherconsulting.com/nuget/nuget": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.myget.org/F/c037199d-41df-4567-b966-25ff65324688/api/v3/index.json": {},
+        "https://www.myget.org/F/xunit/api/v3/index.json": {}
+      }
+    },
+    "frameworks": {
+      "xamarinmac20": {}
+    }
   }
 }
